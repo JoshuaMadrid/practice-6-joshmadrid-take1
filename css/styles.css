@@ -13,6 +13,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background: #F4F1EA;
   color: #111111;
   font-family: 'Work Sans', Helvetica, Arial, sans-serif;
@@ -187,4 +190,18 @@ h1, h2, h3 {
 .person a {
   color: #111111;
   font-weight: 600;
+}
+
+.site-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 28px 32px;
+  background: #111111;
+  color: #F4F1EA;
+  font-size: 15px;
+}
+
+main {
+  flex: 1;
 }
